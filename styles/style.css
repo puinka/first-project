@@ -1,0 +1,100 @@
+.logo_place_header {
+  width: 183px;
+  height: 32px;
+}
+
+.logo_pos_absolute {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.z-index_top {
+  z-index: 10;
+}
+
+.header__title {
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  width: 730px;
+}
+
+.header__subtitle {
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.header__subtitle_pos_absolute {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header__text {
+  display: inline;
+}
+
+.header__link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  background-image: url("../images/two_again.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 765px;
+  height: 608px;
+}
+
+.header__main-illustration_pos_absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.two-columns__brief {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  width: 175px;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph_order_last {
+  margin-bottom: 0;
+}
